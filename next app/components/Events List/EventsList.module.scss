@@ -1,0 +1,27 @@
+.list-page{
+
+    max-width: 130rem;
+    margin: 0 auto;
+    // margin-top:25rem;
+    padding-top:25rem;
+
+
+    .heading{
+        font-size: 4rem;
+        color : var(--primary-light-color);
+        font-weight: 500;
+        margin-bottom:4.8rem;
+    }
+
+    .grid{
+
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap:4.8rem;
+        row-gap: 8rem;
+    }
+    
+
+
+
+}

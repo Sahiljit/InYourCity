@@ -1,0 +1,33 @@
+
+.month-filter{
+
+    .label{
+        font-size:1.8rem;
+        font-weight: 700;
+        color: var(--third-color);
+        margin-bottom: 1rem;
+    }
+    
+    
+    .input{
+    
+        font-size: 1.8rem;
+        color: var(--primary-dark-color);
+        padding:1rem;
+        border-radius:0.8rem;
+        padding-right: 5rem;
+        background-color:white;
+    
+        &::placeholder {
+            color: var(--primary-color);
+    
+        }
+    }
+
+    .option{
+        color: grey;
+    }
+
+
+}
+

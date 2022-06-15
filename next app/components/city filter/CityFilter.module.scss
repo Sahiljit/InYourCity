@@ -1,0 +1,26 @@
+
+.text{
+    font-size:1.8rem;
+    font-weight: 700;
+    color: var(--third-color);
+    margin-bottom: 1rem;
+}
+
+
+.input{
+
+    font-size: 1.8rem;
+    padding:1rem;
+    border-radius:0.8rem;
+    border-color: pink;
+    color: var(--primary-dark-color);
+
+    &:focus{
+        border-color: black;
+    }
+
+    &::placeholder {
+        color: var(--primary-color);
+
+    }
+}

@@ -1,0 +1,124 @@
+.news-letter-section{
+
+    background-color: var(--background-color);
+
+    .news-letter-container{
+
+        max-width: 140rem;
+        margin: 0 auto;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items:center;
+        justify-content: center;
+        justify-items: center;
+        min-height: 70vh;
+
+
+        .left{
+
+            text-align: center;
+
+            .heading{
+                font-size:3.8rem;
+                font-weight: 500;
+                margin-bottom: 6rem;
+                color: var(--third-dark-color);
+            }
+
+            .sub-heading{
+                font-size: 2.8rem;
+            }
+
+        }      
+
+
+
+        .right{
+
+            
+
+        .form{
+
+            background-color: white;
+            padding: 10rem;
+            border-radius:0.8rem;
+
+            display:flex;
+            flex-direction: column;
+            gap: 4.8rem;
+
+            box-shadow: 0 0 0.8rem rgba(31,31,161,0.5);
+
+
+            .input-field {
+                position: relative;
+                width: 25rem;
+                height: 4.4rem;
+                line-height: 4.4rem;
+            
+                label {
+                    font-size: 2rem;
+                    font-weight: 400;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    color: var(--grey);
+                    transition: 0.2s all;
+                    cursor: text;
+                    // padding-bottom: 1.2rem;
+                    
+                }
+                input {
+                    width: 100%;
+                    border: 0;
+                    outline: 0;
+                    padding: 0.5rem 0;
+                    border-bottom: 2px solid black;
+                    box-shadow: none;
+                    color: #111;
+                    padding-bottom: 1rem;
+    
+                }
+                input:invalid {
+                    outline: 0;
+                    // color: #ff2300;
+                    //   border-color: #ff2300;
+                }
+                input:focus,
+                input:valid {
+                    font-size: 2rem;
+                    padding-top:1.6rem;
+                    border-color: var(--thrid-dark-color);
+                }
+                input:focus~label,
+                input:valid~label {
+                    font-size: 1.8rem;
+                    font-weight:500;
+                    top: -2.4rem;
+                    color: var(--third-dark-color);
+                }
+    
+            }
+
+            .btn{
+
+                margin-top: 2rem;
+                font-size: 1.8rem;
+                font-weight: 500;
+                background-color:var(--third-dark-color);
+
+                .icon{
+                    margin-left: 1rem;
+                    font-size: 1.8rem;
+                }
+            }
+
+        }
+
+
+        }
+    }
+
+}
